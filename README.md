@@ -1,13 +1,13 @@
-# Final_nlp_project_Vaccine_analysis
+# Tweets sentiment Analysis
 
-## Project descripltion:
-This project aims to extract information about COVID-19 vaccines from Twitter using Clustering, Sentiment analysis, and Classification, in order to encourage people to take the vaccine.
+## Project description:
+This project aims to extract information about COVID-19 vaccines from Twitter using Clustering, Sentiment analysis, and Classification, to encourage people to take the vaccine.
 
 
 ## Methodology:
-1. Data Collection: At the first step, data is fetched from Twitter by using `Tweepy library` after creating a tweeter developer account. Target vaccine hashtags are: #Pfizer, #Moderna, and #Johnson, but we only extracted the text data and sorted them in CSV files.
+1. Data Collection: In the first step, data is fetched from Twitter by using the `Tweepy library` after creating a tweeter developer account. Target vaccine hashtags are #Pfizer, #Moderna, and #Johnson, but we only extracted the text data and sorted them in CSV files.
 
-2. Preprocessing dataset: Very important step is to clean the collected data and preprocess them before being used in the models to get the best possible results. This can done through: text lower casing, remove stop words, replace emojes with plain text, remove THML tages, tokenization, normalization, and lemmatization.
+2. Preprocessing dataset: Very important step is to clean the collected data and preprocess them before being used in the models to get the best possible results. This can be done through text lower casing, removing stop words, replacing emojis with plain text, removing THML tages, tokenization, normalization, and lemmatization.
 
 3. Used models: 
 
